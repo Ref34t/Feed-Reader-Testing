@@ -1,4 +1,4 @@
-/* feedreader.js
+/* *feedreader.js
  *
  * This is the spec file that Jasmine will read and contains
  * all of the tests that will be run against your application.
@@ -57,7 +57,7 @@ $(
          * hiding/showing of the menu element.
          */
 
-    describe("menu", function() {
+     describe("menu", function() {
       it("hidden menu", function() {
         expect($(".menu").hasClass("menu-hidden")).toEqual(false);
       });
